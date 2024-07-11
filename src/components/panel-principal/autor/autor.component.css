@@ -1,0 +1,44 @@
+img{
+  width: 250px;
+}
+
+h1, p{
+  color: white;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.charles{
+  border-radius: 250px;
+  background-color: #10132D ;
+}
+a{
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+}
+a:hover{
+  color: #10132D;
+  font-weight: bold;
+}
+p{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+li a img{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}

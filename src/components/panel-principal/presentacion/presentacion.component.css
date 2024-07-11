@@ -1,0 +1,29 @@
+header{
+  width: 100%;
+  min-height: 50vh;
+  background-image: url("/panel-principal/background-presentacion.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.contenido{
+  position: absolute;
+  color: white;
+  margin: 30px;
+  padding: 0;
+}
+.fondo{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.158) 30%, rgba(0, 0, 0, 0.712) 81%);
+}
+
+.estrellas img{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}

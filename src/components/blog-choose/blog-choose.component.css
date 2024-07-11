@@ -1,0 +1,16 @@
+/* For screens smaller than 800px, hide regular navigation and show responsive navigation */
+
+
+app-navegacion-responsive {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    app-navegacion {
+      display: none;
+    }
+  
+    app-navegacion-responsive {
+      display: block;
+    }
+}
